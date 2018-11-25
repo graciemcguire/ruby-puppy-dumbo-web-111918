@@ -6,7 +6,10 @@ class Dog
     @name = name
   end
   
-  def all 
+  def all=(all) 
     @all.each { |dog| puts :name }
+  end
+  
+  def clear_all 
   end
 end
